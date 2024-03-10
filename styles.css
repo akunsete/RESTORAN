@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg?size=626&ext=jpg&ga=GA1.2.841631852.1708242026&semt=ais);
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #4b4b4b;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; /* Menjadikan elemen nav tetap di posisi atas layar */
+    width: 100%; /* Lebarnya akan mengisi keseluruhan layar */
+    top: 0; /* Menempatkannya di bagian atas layar */
+    z-index: 1000; /* Memprioritaskan elemen nav di atas elemen lain */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.i1:hover {
+
+    transition: 0.4s;
+    color: brown;
+
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+}
+
+a {
+
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 16px;
+    position: relative;
+    display: inline-block; /* Tambahkan properti display inline-block */
+}
+
+.underline {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 4px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.menu:hover .underline {
+    width: 100%;
+}
+
+.JUDUL {
+
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(0,0,0,0.5);
+
+}
+
+.JUDUL:hover{
+
+    padding: 30px;
+    background-color: #b1b1b1;
+    color: rgb(117, 255, 19);
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+
+.JUDUL:hover:after {
+
+    content: " Khas Indonesia";
+    transition: 0.1s;
+
+}
+
+
+.icon:hover {
+
+    cursor: pointer;
+    color: black;
+
+}
+
+
+
+.IMG1 {
+
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+    width: 480px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 4px 6px 20px rgb(116, 116, 116);
+
+}
+
+.NAMA {
+
+    height: 46px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+.IMG2 {
+
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+    width: 500px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 4px 6px 10px rgb(116, 116, 116);
+
+}
+
+.IMG3 {
+
+    width: 500px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 4px 6px 10px rgb(116, 116, 116);
+
+
+}
+
+button{
+
+    padding: 10px 20px;
+     background-color: grey;
+     border-radius: 8px;
+     font-weight: bold;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+button:hover {
+
+    background-color: black;
+    transition: 0.6s;
+
+}
